@@ -14,4 +14,14 @@
 ##### 使用
 参考流程图和SkillManager
 
-联系我：1632240308@qq.com
+---
+##### 任务流程：不同类型的任务流程，可以拷贝Task文件夹独立使用
+<li>基于时间条件的任务： <B>TimeCondition</B></li>
+<li>基于次数条件的任务： <B>TimesCondition</B></li>
+<li>基于事件条件的任务： <B>EvnetCondition</B></li>
+<li>基于按钮触发器条件的任务： <B>TriggerCondition</B></li>
+
+##### 使用
+TaskManager 以及 TestTask
+---
+##### 联系我：1632240308@qq.com
