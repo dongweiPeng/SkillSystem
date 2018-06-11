@@ -26,12 +26,11 @@ namespace Task
                 yield return current;
                 current = TaskManager.Instance().Next();
             }
-
+            StopAllCoroutines();
             Debug.Log(string.Format("结束: 任务序列{0}", this.m_QueueName));
             if (m_Complate != null)
             {
                 m_Complate();
-                Destroy(this);
             }
         }
     }
